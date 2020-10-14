@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class NumberCounter {
 
   public static void main (String[] args) {
-    System.out.print("Enter a number: ");
     Scanner input = new Scanner(System.in);
+    
     int number = input.nextInt();
     int positiveNumbers = 0;
     int negativeNumbers = 0;
     int sum = 0;
     double counter = 0;
     double Avarage = 0;
+    
     while (number != 0) {
       if (number > 0) {
         positiveNumbers++;
