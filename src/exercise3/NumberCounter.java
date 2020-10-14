@@ -11,7 +11,7 @@ public class NumberCounter {
         int negativeNumbers = 0;
         double sum = 0;
         double counter = 0;
-        double Avarage = 0;
+        double Average = 0;
     
         while (number != 0) {
           if (number > 0) {
@@ -21,16 +21,12 @@ public class NumberCounter {
           }
           counter++;
           sum = sum + number;
-          Avarage = sum / counter;
-          //System.out.println("Positive numbers: " + positiveNumbers);
-          //System.out.println("Negative numbers: " + negativeNumbers);
-          //System.out.println("Sum: " + sum);
-          //System.out.println("Avarage: " + Avarage);
+          Average = sum / counter;
           number = input.nextInt();
         }
           System.out.println("Positive numbers: " + positiveNumbers);
           System.out.println("Negative numbers: " + negativeNumbers);
           System.out.println("Sum: " + sum);
-          System.out.println("Avarage: " + Avarage);
+          System.out.println("Average: " + Average);
     }
 }
