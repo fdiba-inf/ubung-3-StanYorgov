@@ -10,10 +10,10 @@ public class AngleCalculation {
         char unit = input.next().charAt(0);
         while (unit == 'd' || unit == 'r') {
             if (unit == 'd') {
-                double toRadians = Math.PI / 180;
+                double toRadians = unit * (Math.PI / 180);
                 System.out.println("Angle: " + toRadians + " r");
             } else {
-                double toDegrees = 180 / Math.PI;
+                double toDegrees = unit * (180 / Math.PI);
                 System.out.println("Angle: " + toDegrees + " d");
             }
             value = input.nextInt();

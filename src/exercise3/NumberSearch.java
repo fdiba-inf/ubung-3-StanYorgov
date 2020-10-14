@@ -7,16 +7,16 @@ public class NumberSearch {
         for (int num = 100; num <= 1000; num++ ) {
             if (num % 5 == 0 && num % 6 == 0) {        
                 if (counter < 9) {
-                  counter++;
                   System.out.print(num + " ");
-                } else if (counter == 8) {
-                  counter++;
-                  System.out.print(num);
+
+                } else if (counter == 9) {
+                  System.out.println(num);
+
                 } else {
                   counter = 0;
-                  System.out.println(num + " ");
-                }
-        
+                  System.out.print(num + " ");
+                } 
+                counter++;
             } 
         }
     }

@@ -22,11 +22,15 @@ public class NumberCounter {
           counter++;
           sum = sum + number;
           Avarage = sum / counter;
+          //System.out.println("Positive numbers: " + positiveNumbers);
+          //System.out.println("Negative numbers: " + negativeNumbers);
+          //System.out.println("Sum: " + sum);
+          //System.out.println("Avarage: " + Avarage);
+          number = input.nextInt();
+        }
           System.out.println("Positive numbers: " + positiveNumbers);
           System.out.println("Negative numbers: " + negativeNumbers);
           System.out.println("Sum: " + sum);
           System.out.println("Avarage: " + Avarage);
-          number = input.nextInt();
-        }
     }
 }
