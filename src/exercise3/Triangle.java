@@ -6,9 +6,9 @@ public class Triangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        double a = input.nextInt();
-        double b = input.nextInt();
-        double c = input.nextInt();
+        double a = input.nextDouble();
+        double b = input.nextDouble();
+        double c = input.nextDouble();
 
         do {
             if (a < (b + c) && b < (a + c) && c < (a + b)) {
@@ -33,9 +33,9 @@ public class Triangle {
             } else {
                 System.out.println("Values are not correct!");
             }
-            a = input.nextInt();
-            b = input.nextInt();
-            c = input.nextInt();
+            a = input.nextDouble();
+            b = input.nextDouble();
+            c = input.nextDouble();
 
         } while ( a > 0 && b > 0 && c > 0);        
     }

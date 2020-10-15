@@ -7,15 +7,12 @@ public class PrimeNumber {
         Scanner input = new Scanner(System.in);
 
         int number = input.nextInt();
-        int d = 2;
         boolean primeNum = true;
 
-        while (d < number) {
-            if (number % d == 0) {
+        for (int i = 2; i < Math.sqrt(number); i++) {
+            if (number % i == 0) {
               primeNum = false;
               break;
-            } else {
-              d++;
             }
         } 
 
