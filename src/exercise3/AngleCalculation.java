@@ -11,7 +11,7 @@ public class AngleCalculation {
         while (unit == 'd' || unit == 'r') {
             if (unit == 'd') {
                 double toRadians = value * (Math.PI / 180);
-                System.out.proubleln("Angle: " + toRadians + " r");
+                System.out.println("Angle: " + toRadians + " r");
             } else {
                 double toDegrees = value * (180 / Math.PI);
                 System.out.println("Angle: " + toDegrees + " d");
